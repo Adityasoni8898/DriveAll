@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap');
+
+
+:root{
+    --custom_dark_blue: #001014;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+}
+
+html{
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+
+
+
+.intro{
+    background-color: var(--custom_dark_blue);
+    height: 100vh;
+}
+
+nav{
+    padding: 30px 6%;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav h3{
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.nav_links{
+    display: flex;
+    gap: 40px;
+}
+
+.intro_description{
+    margin: 120px 10%;
+    position: relative;
+}
+
+.des_img_1{
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: 2;
+    margin-right: 18px;
+}
+
+.des_img_2{
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: 1;
+    margin-top: 18px;
+}
+
+.description{
+    position: relative;
+    width: 80%;
+    z-index: 5;
+    padding-top: 60px;
+}
+
+.description h1{
+    font-size: 64px;
+    font-weight: 700;
+}
+
+.description p{
+    font-size: 18px;
+    font-weight: 500;
+    margin-top: 20px;
+    max-width: 80%;
+}
+
+.description button{
+    margin-top: 36px;
+    background-color: white;
+    color: black;
+    font-size: 16px;
+    font-weight: 500;
+    border-radius: 5px;
+    padding: 12px 32px;
+}
+
+.our_fleet{
+    padding: 160px 10% 80px 10%;
+}
+
+.fleet_title{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.fleet_title *{
+    color: black;
+}
+
+.fleet_title h3{
+    font-size: 32px;
+}
+
+.fleet_title p{
+    font-size: 24px;
+    text-align: center;
+    margin-top: 8px;
+}
